@@ -1,0 +1,57 @@
+body{
+margin: auto;
+background-color: #FFFFFF;
+}
+
+body.dark-theme{
+margin: 0px;
+background-color: #000000;
+}
+
+a:hover{
+background-color: #343734;
+text-decoration: none;
+}
+
+div.menu a{
+color: white;
+font-size: 125%;
+height: inherit;
+width: 30%;
+text-decoration: none;
+padding: 10px;
+height: 34px;
+vertical-align: top;
+}
+
+
+div.menu {
+dislpay: table;
+text-align: center;
+align: center;
+width: 100%; 
+height: 34px;
+margin-top: 0px;
+margin-left: auto;
+margin-right: auto;
+background-color: #1F211F;
+overflow: hidden;
+border-color: #1F211F;
+}
+
+div.main_content{
+border: 1px solid black;
+background-color: white;
+width: 50%;
+margin-top: 30px;
+margin-left: 25%;
+margin-right: 25%;
+overflow: hidden;
+}
+
+div.main_content p{
+-webkit-hyphens: auto;
+-moz-hyphens: auto;
+-ms-hyphens: auto;
+}
+
